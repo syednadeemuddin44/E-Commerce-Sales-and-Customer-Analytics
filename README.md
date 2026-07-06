@@ -29,11 +29,14 @@ The dataset contains 9,994 transactional records from a superstore-style e-comme
 ## Project Structure
 
 ```
-├── 01_Project_Overview.ipynb        # Business problem, objectives, dataset familiarization
-├── 02_Data_Preprocessing.ipynb      # Cleaning, type conversion, feature engineering
-├── 03_EDA.ipynb                     # Full exploratory analysis & business insights
-├── E-commerce_data.csv              # Raw dataset
-├── ecommerce_feature_engineered.csv # Cleaned dataset with engineered features
+E-Commerce-Sales-and-Customer-Analytics/
+├── data/
+│   ├── E-commerce_data.csv                 # Raw dataset
+│   └── ecommerce_feature_engineered.csv    # Cleaned dataset with engineered
+├── notebooks/
+│   ├── 01_Project_Overview.ipynb           # Business problem, objectives, dataset familiarization
+│   ├── 02_Data_Preprocessing.ipynb         # Cleaning, type conversion, feature engineering
+│   └── 03_EDA.ipynb                        # Full exploratory analysis & business insights
 ├── images/                          # Exported chart images used in this README
 │   ├── category_profit.png
 │   ├── category_sales.png
